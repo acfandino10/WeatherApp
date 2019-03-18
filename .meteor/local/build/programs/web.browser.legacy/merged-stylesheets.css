@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Cinzel|Kaushan+Script|Permanent+Marker');
+
+body {
+    color: white !important;
+    height: 100%;
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+    ), url("https://centralhighlands.com.au/files/2014/12/weather-hero.jpg") no-repeat center;
+    background-size: cover;
+}
+.theTitle {
+    font-family: 'Cinzel';
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow: 2px 2px black;
+    padding-bottom: 3%;
+    border-bottom: solid white 1px;
+}
+.maxTemp {
+    font-size: 2rem !important;
+}
+.imgSize {
+    max-width: 80px !important;
+}
+.card {
+    color: black;
+    width: 8.5em;
+    margin: 1%;
+    padding: 2%;
+    padding-top: 0% !important;
+    align-items: center !important;
+}
+.baby {
+    font-size: 0.8rem !important;
+    padding-top: 13%;
+    padding-bottom: 0% !important;
+}
+.top {
+    border-bottom: solid gray;
+}
+.creditos{
+    border-top: solid white 0.001rem;
+    text-align: center;
+    font-family: Amatic SC;
+    font-size: 150%;
+    padding-top: 50px;
+    padding-bottom: 2%;
+}
+.bottom {
+    border-top: solid gray 0.5px;
+    padding-top: 10%;
+    width: 8.5em;
+    text-align: center;
+}
+.row{
+    padding-top: 4%;
+}
+.lighter {
+    color: 	rgba(144,144,144, 0.8);
+}
+.bottomPadding {
+    padding-bottom: 5%;
+}
+.footer {
+    background-color: gray !important;
+    width: 100% !important;
+}
